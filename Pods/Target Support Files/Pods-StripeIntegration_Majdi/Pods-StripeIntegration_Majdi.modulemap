@@ -1,0 +1,6 @@
+framework module Pods_StripeIntegration_Majdi {
+  umbrella header "Pods-StripeIntegration_Majdi-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15A276542341FF7A00F9553A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A276532341FF7A00F9553A /* AppDelegate.swift */; };
+		15A276562341FF7A00F9553A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A276552341FF7A00F9553A /* SceneDelegate.swift */; };
+		15A276582341FF7A00F9553A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A276572341FF7A00F9553A /* ViewController.swift */; };
+		15A2765B2341FF7A00F9553A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15A276592341FF7A00F9553A /* Main.storyboard */; };
+		15A2765D2341FF8000F9553A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15A2765C2341FF8000F9553A /* Assets.xcassets */; };
+		15A276602341FF8000F9553A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15A2765E2341FF8000F9553A /* LaunchScreen.storyboard */; };
+		15A276682342020D00F9553A /* MyAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A276672342020D00F9553A /* MyAPIClient.swift */; };
+		15A2766A2342061100F9553A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A276692342061100F9553A /* Product.swift */; };
+		D023631834CFE2D3AF104400 /* Pods_StripeIntegration_Majdi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4661B5C7F22240EBA001E7A3 /* Pods_StripeIntegration_Majdi.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15A276502341FF7A00F9553A /* StripeIntegration_Majdi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StripeIntegration_Majdi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15A276532341FF7A00F9553A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15A276552341FF7A00F9553A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		15A276572341FF7A00F9553A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15A2765A2341FF7A00F9553A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15A2765C2341FF8000F9553A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15A2765F2341FF8000F9553A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15A276612341FF8000F9553A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15A276672342020D00F9553A /* MyAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAPIClient.swift; sourceTree = "<group>"; };
+		15A276692342061100F9553A /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		269D4D3F8DE0DFFB5A8E8AAD /* Pods-StripeIntegration_Majdi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StripeIntegration_Majdi.debug.xcconfig"; path = "Target Support Files/Pods-StripeIntegration_Majdi/Pods-StripeIntegration_Majdi.debug.xcconfig"; sourceTree = "<group>"; };
+		329B98419DD56D41A8D9B6B9 /* Pods-StripeIntegration_Majdi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StripeIntegration_Majdi.release.xcconfig"; path = "Target Support Files/Pods-StripeIntegration_Majdi/Pods-StripeIntegration_Majdi.release.xcconfig"; sourceTree = "<group>"; };
+		4661B5C7F22240EBA001E7A3 /* Pods_StripeIntegration_Majdi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StripeIntegration_Majdi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15A2764D2341FF7A00F9553A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D023631834CFE2D3AF104400 /* Pods_StripeIntegration_Majdi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ACFC0A0F05975930DC46DC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4661B5C7F22240EBA001E7A3 /* Pods_StripeIntegration_Majdi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15A276472341FF7A00F9553A = {
+			isa = PBXGroup;
+			children = (
+				15A276522341FF7A00F9553A /* StripeIntegration_Majdi */,
+				15A276512341FF7A00F9553A /* Products */,
+				9DA92405E04D8F4093B44E14 /* Pods */,
+				0ACFC0A0F05975930DC46DC0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		15A276512341FF7A00F9553A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15A276502341FF7A00F9553A /* StripeIntegration_Majdi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15A276522341FF7A00F9553A /* StripeIntegration_Majdi */ = {
+			isa = PBXGroup;
+			children = (
+				15A276532341FF7A00F9553A /* AppDelegate.swift */,
+				15A276672342020D00F9553A /* MyAPIClient.swift */,
+				15A276552341FF7A00F9553A /* SceneDelegate.swift */,
+				15A276572341FF7A00F9553A /* ViewController.swift */,
+				15A276692342061100F9553A /* Product.swift */,
+				15A276592341FF7A00F9553A /* Main.storyboard */,
+				15A2765C2341FF8000F9553A /* Assets.xcassets */,
+				15A2765E2341FF8000F9553A /* LaunchScreen.storyboard */,
+				15A276612341FF8000F9553A /* Info.plist */,
+			);
+			path = StripeIntegration_Majdi;
+			sourceTree = "<group>";
+		};
+		9DA92405E04D8F4093B44E14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				269D4D3F8DE0DFFB5A8E8AAD /* Pods-StripeIntegration_Majdi.debug.xcconfig */,
+				329B98419DD56D41A8D9B6B9 /* Pods-StripeIntegration_Majdi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15A2764F2341FF7A00F9553A /* StripeIntegration_Majdi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15A276642341FF8000F9553A /* Build configuration list for PBXNativeTarget "StripeIntegration_Majdi" */;
+			buildPhases = (
+				F5EA73BA04BC48AF19205B2F /* [CP] Check Pods Manifest.lock */,
+				15A2764C2341FF7A00F9553A /* Sources */,
+				15A2764D2341FF7A00F9553A /* Frameworks */,
+				15A2764E2341FF7A00F9553A /* Resources */,
+				4F32903F7634EEC9E27F81A7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StripeIntegration_Majdi;
+			productName = StripeIntegration_Majdi;
+			productReference = 15A276502341FF7A00F9553A /* StripeIntegration_Majdi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15A276482341FF7A00F9553A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "TAE Akshit";
+				TargetAttributes = {
+					15A2764F2341FF7A00F9553A = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 15A2764B2341FF7A00F9553A /* Build configuration list for PBXProject "StripeIntegration_Majdi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15A276472341FF7A00F9553A;
+			productRefGroup = 15A276512341FF7A00F9553A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15A2764F2341FF7A00F9553A /* StripeIntegration_Majdi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15A2764E2341FF7A00F9553A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A276602341FF8000F9553A /* LaunchScreen.storyboard in Resources */,
+				15A2765D2341FF8000F9553A /* Assets.xcassets in Resources */,
+				15A2765B2341FF7A00F9553A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F32903F7634EEC9E27F81A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StripeIntegration_Majdi/Pods-StripeIntegration_Majdi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StripeIntegration_Majdi/Pods-StripeIntegration_Majdi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StripeIntegration_Majdi/Pods-StripeIntegration_Majdi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5EA73BA04BC48AF19205B2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StripeIntegration_Majdi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15A2764C2341FF7A00F9553A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A276582341FF7A00F9553A /* ViewController.swift in Sources */,
+				15A276542341FF7A00F9553A /* AppDelegate.swift in Sources */,
+				15A2766A2342061100F9553A /* Product.swift in Sources */,
+				15A276562341FF7A00F9553A /* SceneDelegate.swift in Sources */,
+				15A276682342020D00F9553A /* MyAPIClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15A276592341FF7A00F9553A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15A2765A2341FF7A00F9553A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15A2765E2341FF8000F9553A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15A2765F2341FF8000F9553A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15A276622341FF8000F9553A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15A276632341FF8000F9553A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15A276652341FF8000F9553A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 269D4D3F8DE0DFFB5A8E8AAD /* Pods-StripeIntegration_Majdi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StripeIntegration_Majdi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tae.StripeIntegration-Majdi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15A276662341FF8000F9553A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 329B98419DD56D41A8D9B6B9 /* Pods-StripeIntegration_Majdi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StripeIntegration_Majdi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tae.StripeIntegration-Majdi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15A2764B2341FF7A00F9553A /* Build configuration list for PBXProject "StripeIntegration_Majdi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15A276622341FF8000F9553A /* Debug */,
+				15A276632341FF8000F9553A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15A276642341FF8000F9553A /* Build configuration list for PBXNativeTarget "StripeIntegration_Majdi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15A276652341FF8000F9553A /* Debug */,
+				15A276662341FF8000F9553A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15A276482341FF7A00F9553A /* Project object */;
+}

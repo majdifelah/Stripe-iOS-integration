@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-StripeIntegration_Majdi/Pods-StripeIntegration_Majdi-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework
