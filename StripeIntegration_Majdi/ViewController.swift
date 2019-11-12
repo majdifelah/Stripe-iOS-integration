@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         self.paymentContext = STPPaymentContext(customerContext: customerContext)
         self.paymentContext.delegate = self
         self.paymentContext.hostViewController = self
-        self.paymentContext.paymentAmount = 5000 // This is in cents, i.e. $50 USD
+        self.paymentContext.paymentAmount = 5000 // This is in cents, i.e. $50 USD ()
     }
     
     // Shows different payment options
